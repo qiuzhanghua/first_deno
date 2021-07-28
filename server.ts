@@ -1,5 +1,6 @@
 import { Application, helpers, Router, send } from "./deps.ts";
 import User from "./domain/User.ts";
+import "./db.ts";
 
 const app = new Application();
 
