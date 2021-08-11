@@ -1,4 +1,4 @@
-export { serve } from "https://deno.land/std@0.102.0/http/server.ts";
+export { serve } from "https://deno.land/std@0.104.0/http/server.ts";
 export {
   Application,
   helpers,
@@ -11,4 +11,4 @@ export {
   Model,
   SQLite3Connector,
 } from "https://deno.land/x/denodb@v1.0.38/mod.ts";
-import "https://deno.land/x/dotenv@v2.0.0/load.ts";
+import "https://deno.land/x/dotenv@v3.0.0/load.ts";
